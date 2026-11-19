@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8eaef;
+}
+
+main{
+    width: 430px;
+    padding: 32px;
+    background: #ffffff;
+    border-radius: 28px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 16px;
+}
+
+
+header{
+    text-align: center;
+}
+
+
+#kijelzo{
+    background-color: gray;
+}
+
+.gombok {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+
+
+    
+
